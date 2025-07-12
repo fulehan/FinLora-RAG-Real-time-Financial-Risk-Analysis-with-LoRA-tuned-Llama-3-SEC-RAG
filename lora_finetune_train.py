@@ -12,6 +12,10 @@ warnings.filterwarnings("ignore", category=UserWarning)
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 warnings.filterwarnings("ignore", message="Exception ignored in: <function tqdm.__del__")
 
+# HuggingFace TOKEN
+hf_token = "your_hf_token"
+# SEC-API Key
+sec_api_key = "your_sec_api_key"
 
 # 微调相关包
 from unsloth import FastLanguageModel
